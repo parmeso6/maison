@@ -1,0 +1,164 @@
+@font-face {
+  font-family: 'QUINB';
+  src: url('../fonts/QUINB___.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/QUINB___.eot?#iefix') format('embedded-opentype'),
+  	url('../fonts/QUINB___.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/QUINB___.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/QUINB___.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Blur';
+  src: url('../fonts/Blur.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Blur.eot?#iefix') format('embedded-opentype'),
+  	url('../fonts/Blur.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/Blur.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Blur.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+@media screen and (min-width:900px) {
+	.long{
+	width: 60%;
+	margin-top: 40px;
+	}
+}
+/*@media screen and (min-width:320px) and (max-width: 900px) {
+	.long{
+	width: 60%;
+	margin-top: 40px;
+	}
+	.info{
+		flex-direction: column;
+	}
+	.who{
+		flex-direction: column;
+	}	
+}*/
+@media screen and (max-width:900px) {
+	.info{
+		flex-direction: column;
+	}
+	.who{
+		flex-direction: column;
+	}
+	.long{
+	width: 90%;
+	margin-top: 20px;
+}
+}
+body{
+	width: 100%;
+	margin: 0;
+}
+header{
+	width: 100%;
+	height: 500px;
+	float: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	background-image: url('../images/2.jpg');
+	background-size: cover;
+	background-position: center;
+	color: white;
+	margin:0;
+	font-family: 'QUINB'
+}
+a{
+	text-decoration: none;
+	color: white;
+	margin-left: 5%;
+	font-size: 1.5em;
+	margin-top: -15%;
+}
+
+.title{
+	width: 50%;
+	margin-left: 15%;
+	text-align: center;
+	font-size: 3em;
+}
+section{
+	width: 100%;
+	float: left;
+	margin: 0;
+	text-align: center;
+	font-family: 'Blur';
+}
+h3{
+	font-size: 2.8em;
+	font-family: 'QUINB';
+}
+h4{
+	font-size: 1.8em;
+	font-family: 'QUINB';
+}
+h5{
+	font-size: 1.2em;
+	font-family: 'QUINB';
+}
+
+.info{
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-around;
+}
+p{
+	padding-right: 3%;
+	padding-left: 3%;
+}
+ul{
+	color: #9B9C13 ;
+	font-family: 'QUINB';
+	font-size: 1.1em;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	line-height: 1.8em;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+.where{
+	margin-top: 30px;
+	width: 100%;
+	height: 500px;
+	float: left;
+	background-image: url('../images/3.jpg');
+	background-size: cover;
+	background-position: center;
+	color: white;
+	font-family: 'QUINB'
+}
+.how{
+	width: 100%;
+	height: 500px;
+	float: left;
+	background-image: url('../images/4.jpg');
+	background-size: cover;
+	background-position: center;
+	color: white;
+	font-family: 'QUINB'
+}
+.who{
+	margin-top: 5%;
+	display: flex;
+	width: 90%;
+	justify-content: space-around;
+	align-items: center;
+	float: right;
+}
+.work{
+	margin-top: 5%;
+	width: 100%;
+	background-color: #9B9C13;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.who p{
+	width: 200px;
+}
