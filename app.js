@@ -31,4 +31,4 @@ app.post('/', function(req,res){
 
 //Server
 app.listen(port);
-console.log("Serveur lancé à l'adresse http://local.dev:" +port);
+console.log("Serveur lancé à l'adresse http://localhost:" +port);
